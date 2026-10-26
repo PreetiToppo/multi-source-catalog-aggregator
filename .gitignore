@@ -1,0 +1,51 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Freebuff workspace metadata
+.freebuff/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.json
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / tooling
+.python-version
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local data
+*.log
+*.sqlite3
