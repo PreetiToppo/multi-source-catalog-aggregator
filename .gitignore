@@ -3,9 +3,6 @@
 .env.*
 !.env.example
 
-# Freebuff workspace metadata
-.freebuff/
-
 # Virtual environments
 .venv/
 venv/
